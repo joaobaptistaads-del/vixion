@@ -2,6 +2,16 @@
 
 A modern and elegant restaurant reservation website with comprehensive administrative panel built with HTML, CSS, and JavaScript.
 
+## 🌐 Live Demo
+
+**View the live website here:**
+- **Public Website**: https://joaobaptistaads-del.github.io/vixion/
+- **Admin Panel**: https://joaobaptistaads-del.github.io/vixion/admin-login.html
+
+> **Admin Credentials**: Username: `admin` | Password: `admin123`
+
+> **Note**: If the links don't work yet, GitHub Pages needs to be enabled. See [DEPLOYMENT.md](DEPLOYMENT.md) for instructions.
+
 ## Features
 
 ### Public Website
@@ -142,6 +152,41 @@ You can easily customize the website by:
 - Firefox (latest)
 - Safari (latest)
 - Edge (latest)
+
+## 🚀 Deployment
+
+### GitHub Pages (Recommended)
+
+This project is ready for GitHub Pages deployment:
+
+1. Go to repository **Settings** → **Pages**
+2. Select branch: `copilot/replicate-project-design`
+3. Select folder: `/ (root)`
+4. Click **Save**
+5. Visit: https://joaobaptistaads-del.github.io/vixion/
+
+For detailed deployment instructions, see [DEPLOYMENT.md](DEPLOYMENT.md)
+
+### Local Development
+
+```bash
+# Using Python
+python3 -m http.server 8000
+
+# Using Node.js
+npx http-server -p 8000
+
+# Using PHP
+php -S localhost:8000
+```
+
+Then visit:
+- http://localhost:8000 (public site)
+- http://localhost:8000/admin-login.html (admin panel)
+
+## 📞 Support
+
+For questions or issues, please open an issue on GitHub.
 
 ## License
 
